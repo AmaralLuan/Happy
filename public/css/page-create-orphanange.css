@@ -1,0 +1,33 @@
+#page-create-orphanange{
+    display: flex;
+    min-height: 100vh;
+}
+
+form {
+    width: 70rem;
+    margin: 64px auto;
+    background: #fff;
+    border: 1px solid #d3e2e5;
+
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 8rem;
+}
+
+main {
+    flex: 1;
+}
+
+.map-container {
+    margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0 ;
+}
+
+.map-container footer {
+    background-color: #F5F8FA;
+    border-radius: 0 0 20px 20px;
+}
+
