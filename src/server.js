@@ -27,9 +27,11 @@ server
 .get('/orphanange', pages.orphanange)
 .get('/orphananges', pages.orphananges)
 .get('/create-orphanange', pages.createOrphanange)
+.get('/orphanangeList', pages.orphanangeList)
+
 
 
 .post('/save-orphanange', pages.saveOrphanange)
 // ligar servidor
 
-server.listen(5500)
+server.listen(5510)

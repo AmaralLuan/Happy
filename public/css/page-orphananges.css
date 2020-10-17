@@ -15,6 +15,38 @@ aside {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+    #page-orphananges {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    aside header h2 {
+        font-size: 3rem;
+    }
+
+    aside header p {
+        margin-top: 1.4rem;
+    }
+
+    aside header img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    #page-orphananges a.orphanangeList {
+        right: 6.5%;
+        top: 40vh;
+
+        width: 7rem;
+        height: 7rem;
+        font-size: 1rem;
+    }
+}
+
 aside h2 {
     margin-top: 2.4rem;
     font: 800 3.6rem/1 'Nunito', sans-serif;
@@ -58,6 +90,39 @@ a.create-orphanange {
 
 a.create-orphanange:hover {
     background: #17d6eb;
+}
+
+a.orphanangeList {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    z-index: 10;
+
+    width: 11rem;
+    height: 11rem;
+    background: #15c3d6;
+    border: 0;
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+a.orphanangeList:hover {
+    background: #17d6eb;
+}
+
+@media only screen and (max-width: 760px) {
+    a.orphanangeList {
+        width: 9rem;
+        height: 9rem;
+        font-size: 1.2rem;
+    }
 }
 
 .leaflet-popup-content-wrapper {

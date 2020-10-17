@@ -31,6 +31,15 @@ module.exports = {
         }
     },
 
+    async orphanangeList(req, res) {
+        try {
+            return res.render('orphanangeList');
+        } catch (error) {
+            console.log(error)
+            return res.send('erro no banco de dados!')
+        }
+    },
+
     async orphananges(req, res) {
         try {
             const db = await Database;

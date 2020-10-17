@@ -34,7 +34,7 @@ Database.then(async (db) => {
 
     // deletar um dado da tabela
 
-    await db.run("DELETE FROM orphananges WHERE id='20'");
+    /* await db.run("DELETE FROM orphananges WHERE id='16'"); */
     
     
    
