@@ -22,8 +22,8 @@ com a orientação do incrível professor Mayk Brito (Maykão).
 
 
 
-Para executar a aplicação : npm start
-A porta do servidor está como 5510
+* Para executar a aplicação : npm start
+* A porta do servidor está como 5510
 
 ### A milha extra
 
