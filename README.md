@@ -1,10 +1,6 @@
-#Happy
-___________________________________________________________________________________________________________________________
-
 ![alt text](https://github.com/guilhermecapitao/nlw3-discovery-happy/blob/master/.github/logo.svg "Happy")
 
 ## Tecnologias Utilizadas
-___________________________________________________________________________________________________________________________
 
 * NodeJS
 * Express
@@ -14,7 +10,7 @@ ________________________________________________________________________________
 * Handlebars
 
 ## Sobre o Projeto
-___________________________________________________________________________________________________________________________
+
 
 O Happy foi feito pra promover momentos de felicidade entre crianças que estão em orfanatos e pessoas que querem visitar
 essas crianças, criando momentos de carinho e alegria, pra ambas as partes!
