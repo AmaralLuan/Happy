@@ -23,3 +23,7 @@ com a orientação do incrível professor Mayk Brito (Maykão).
 
 
 Para executar a aplicação : npm start
+
+### A milha extra
+
+Como desafio proposto, eu adicionei mais uma página com uma lista dos orfanatos cadastrados, e um botão na página do mapa que leva até essa lista.
